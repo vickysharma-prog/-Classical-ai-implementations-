@@ -146,34 +146,52 @@ Classical-ai-implementations/
 ├── LICENSE
 └── requirements.txt
 ```
-**🔬 Algorithms Comparison**
-Search Algorithms
-Algorithm	Complete	Optimal	Time	Space
-BFS	✅	✅	O(b^d)	O(b^d)
-DFS	❌	❌	O(b^m)	O(bm)
-A*	✅	✅	O(b^d)	O(b^d)
 
-**Game Theory**
-Algorithm	Description	Pruning
-Minimax	Full game tree search	❌
-Alpha-Beta	Minimax with pruning	✅
-Expectimax	Handles randomness	❌
+---
 
-**🔮 Upcoming Projects**
-Project	Algorithm	Category	Status
-Minesweeper	Propositional Logic	Knowledge-based	🔄 In Progress
-PageRank	Markov Chains	Probabilistic	📅 Planned
-Heredity	Bayesian Networks	Probabilistic	📅 Planned
-Crossword	CSP + AC-3	Constraint-based	📅 Planned
-Parser	Context-Free Grammar	NLP	📅 Planned
+## 🔬 Algorithms Comparison
 
-**🛠️ Tech Stack**
+### Search Algorithms
 
-**Technology**	**Purpose**
-Python 3.10+	Core language
-Pygame	Game visualization
-Git	Version control
-Concepts: Graph Theory, Game Trees, State Space Search, Adversarial Search, Heuristics
+| Algorithm | Complete | Optimal | Time | Space |
+|:----------|:--------:|:-------:|:----:|:-----:|
+| BFS | ✅ | ✅ | O(b^d) | O(b^d) |
+| DFS | ❌ | ❌ | O(b^m) | O(bm) |
+| A* | ✅ | ✅ | O(b^d) | O(b^d) |
+
+### Game Theory
+
+| Algorithm | Description | Pruning |
+|:----------|:------------|:-------:|
+| Minimax | Full game tree search | ❌ |
+| Alpha-Beta | Minimax with pruning | ✅ |
+| Expectimax | Handles randomness | ❌ |
+
+---
+
+## 🔮 Upcoming Projects
+
+| Project | Algorithm | Category | Status |
+|:--------|:----------|:---------|:------:|
+| Minesweeper | Propositional Logic | Knowledge-based | 🔄 In Progress |
+| PageRank | Markov Chains | Probabilistic | 📅 Planned |
+| Heredity | Bayesian Networks | Probabilistic | 📅 Planned |
+| Crossword | CSP + AC-3 | Constraint-based | 📅 Planned |
+| Parser | Context-Free Grammar | NLP | 📅 Planned |
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|:-----------|:--------|
+| Python 3.10+ | Core language |
+| Pygame | Game visualization |
+| Git | Version control |
+
+**Concepts:** Graph Theory, Game Trees, State Space Search, Adversarial Search, Heuristics
+
+---
 
 **⚡ Quick Start**
 ```Bash
